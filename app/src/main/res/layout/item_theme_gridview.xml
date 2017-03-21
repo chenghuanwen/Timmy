@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants">
+    <TextView
+        android:id="@+id/tv_them1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="讨论求助"
+        android:textColor="@drawable/radiobutton_textcolor"
+        android:layout_alignParentLeft="true"
+        android:gravity="center"
+        android:background="@drawable/bai"
+        android:layout_margin="2dp"
+        />
+
+</LinearLayout>

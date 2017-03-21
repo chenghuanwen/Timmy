@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_portocol"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dgkj.tianmi.view.PortocolActivity"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/tv_return"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#fff"
+        android:text="服务协议"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:textColor="#6c5a5a"
+        android:drawableLeft="@mipmap/fanhui"
+        android:paddingLeft="10dp"/>
+    <com.tencent.smtt.sdk.WebView
+        android:id="@+id/webview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></com.tencent.smtt.sdk.WebView>
+
+</LinearLayout>

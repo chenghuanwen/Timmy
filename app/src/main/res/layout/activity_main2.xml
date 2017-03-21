@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dgkj.tianmi.view.Main2Activity"
+    android:orientation="vertical"
+>
+    <RelativeLayout
+        android:id="@+id/rl_display"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#f6f6f6">
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#80000000"/>
+    <RadioGroup
+        android:id="@+id/rg_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:orientation="horizontal"
+        android:background="#fff"
+        android:layout_alignParentBottom="true"
+        >
+        <RadioButton
+            android:id="@+id/rb_guanwang"
+            android:drawableTop="@drawable/bottom_icom_selector"
+            android:text="@string/string021"
+            style="@style/bottom_Radiobutton"/>
+        <RadioButton
+            android:id="@+id/rb_shangcheng"
+            android:drawableTop="@drawable/bottom_icom_selector2"
+            android:text="@string/string022"
+            android:checked="true"
+            style="@style/bottom_Radiobutton"/>
+        <RadioButton
+        android:id="@+id/rb_luntan"
+            android:text="@string/string023"
+            android:drawableTop="@drawable/bottom_icom_selector3"
+            style="@style/bottom_Radiobutton"/>
+
+        <RadioButton
+            android:id="@+id/rb_mine"
+            android:text="@string/string024"
+            android:drawableTop="@drawable/bottom_icom_selector4"
+          style="@style/bottom_Radiobutton"/>
+    </RadioGroup>
+
+</LinearLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_regist"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f6f6f6"
+    tools:context="com.dgkj.tianmi.view.RegistActivity">
+    <TextView
+        android:id="@+id/tv_return"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#fff"
+        android:text="@string/string041"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:textColor="#6c5a5a"
+        android:drawableLeft="@mipmap/fanhui"
+        android:paddingLeft="10dp"/>
+
+
+    <EditText
+        android:id="@+id/et_phoneNum"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#fff"
+        android:layout_marginTop="20dp"
+        android:hint="@string/string042"
+        android:textSize="16sp"
+        android:textColor="#909090"
+        android:paddingLeft="10dp"
+        />
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#fff"
+        android:layout_marginTop="1dp"
+        android:hint="@string/string045"
+        android:textSize="16sp"
+        android:textColor="#909090"
+        android:paddingLeft="10dp"
+        android:inputType="textPassword"
+        />
+    <EditText
+        android:id="@+id/et_password_again"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#fff"
+        android:layout_marginTop="1dp"
+        android:hint="@string/string054"
+        android:textSize="16sp"
+        android:textColor="#909090"
+        android:paddingLeft="10dp"
+        android:inputType="textPassword"
+        />
+    <Button
+        android:id="@+id/btn_regist"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="@string/string046"
+        android:textSize="18sp"
+        android:textColor="#fff"
+        android:background="@drawable/btn_background"
+        android:layout_marginTop="50dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_protocol"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingLeft="10dp"
+        android:gravity="center|left"/>
+
+
+</LinearLayout>

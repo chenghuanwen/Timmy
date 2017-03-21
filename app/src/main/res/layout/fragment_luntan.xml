@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dgkj.tianmi.fragment.LuntanFragment"
+    android:id="@+id/fl"
+    android:orientation="vertical">
+    <include layout="@layout/header_layout"/>
+    <RadioGroup
+        android:id="@+id/rg_top_luntan"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:orientation="horizontal"
+        android:background="#e9f9ff"
+        >
+        <RadioButton
+            android:id="@+id/rb_shouye"
+            style="@style/timmy_Radiobutton"
+            android:text="@string/string011"
+            android:checked="true"
+            />
+        <RadioButton
+            android:id="@+id/rb_tieba"
+            style="@style/timmy_Radiobutton"
+            android:text="@string/string017"
+            />
+        <RadioButton
+            android:id="@+id/rb_bankuai"
+            style="@style/timmy_Radiobutton"
+            android:text="@string/string018"
+            />
+
+        <RadioButton
+            android:id="@+id/rb_jinghua"
+            style="@style/timmy_Radiobutton"
+            android:text="@string/string020"
+            />
+    </RadioGroup>
+<com.tencent.smtt.sdk.WebView
+    android:id="@+id/webview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"></com.tencent.smtt.sdk.WebView>
+</LinearLayout>
